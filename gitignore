@@ -1,0 +1,32 @@
+
+---
+
+## 📝 **الملف 2: .gitignore - انسخ هذا النص:**
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Cache
+.cache/
+*.pkl
+
+# Project specific
+cache/
+results/
+*.log
